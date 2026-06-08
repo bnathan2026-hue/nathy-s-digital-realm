@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Nathy — Baraka Chrisant Nathan | Developer & Entrepreneur" },
-      { name: "description", content: "Portfolio of Baraka Chrisant Nathan (Nathy) — developer, entrepreneur, AI specialist and content creator from Tanzania building websites, apps & AI products." },
-      { name: "author", content: "Baraka Chrisant Nathan" },
+      { title: "Nathy — Baraka Nathy | Developer & Entrepreneur" },
+      { name: "description", content: "Portfolio of Baraka Nathy — developer, entrepreneur, AI specialist and content creator from Tanzania building websites, apps & AI products." },
+      { name: "author", content: "Baraka Nathy" },
       { property: "og:title", content: "Nathy — Developer, Entrepreneur & AI Specialist" },
       { property: "og:description", content: "Building websites, mobile apps, AI solutions and digital experiences from Tanzania." },
       { property: "og:type", content: "website" },

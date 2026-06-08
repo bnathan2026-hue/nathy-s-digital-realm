@@ -16,8 +16,8 @@ import projDesign from "@/assets/project-design.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nathy — Baraka Chrisant Nathan | Developer & Entrepreneur" },
-      { name: "description", content: "Portfolio of Baraka Chrisant Nathan (Nathy) — developer, entrepreneur, AI specialist building websites, apps & AI products from Tanzania." },
+      { title: "Nathy — Baraka Nathy | Developer & Entrepreneur" },
+      { name: "description", content: "Portfolio of Baraka Nathy — developer, entrepreneur, AI specialist building websites, apps & AI products from Tanzania." },
       { property: "og:title", content: "Nathy — Developer, Entrepreneur & AI Specialist" },
       { property: "og:description", content: "Building websites, mobile apps, AI solutions and digital experiences from Tanzania." },
     ],
@@ -208,7 +208,7 @@ function Hero() {
             <span className="text-muted-foreground">Available for projects · Tanzania</span>
           </div>
           <h1 className="text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
-            Baraka <span className="text-gradient">Chrisant</span> Nathan
+            Baraka <span className="text-gradient">Nathy</span>
           </h1>
           <p className="mt-3 text-lg text-muted-foreground md:text-xl">AKA Nathy</p>
           <div className="mt-6 h-10 overflow-hidden md:h-12">
@@ -240,7 +240,7 @@ function Hero() {
           <div className="relative mx-auto max-w-md">
             <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-primary/30 to-purple-500/20 blur-3xl" />
             <div className="relative overflow-hidden rounded-[2rem] glass-card glow-border">
-              <img src={heroPortrait} alt="Baraka Chrisant Nathan portrait" width={1024} height={1024}
+              <img src={heroPortrait} alt="Baraka Nathy portrait" width={1024} height={1024}
                    className="h-auto w-full" />
               <div className="absolute bottom-4 left-4 right-4 glass rounded-2xl p-3 flex items-center gap-3">
                 <Sparkles className="h-5 w-5 text-primary" />
@@ -281,12 +281,12 @@ function About() {
         <div className="md:col-span-2">
           <div className="relative overflow-hidden rounded-3xl glass-card">
             <div className="absolute -inset-8 -z-10 rounded-[2.5rem] bg-gradient-to-br from-primary/30 to-purple-500/20 blur-3xl" />
-            <img src={heroPortrait} alt="Baraka Chrisant Nathan" loading="lazy"
+            <img src={heroPortrait} alt="Baraka Nathy" loading="lazy"
                  className="aspect-[4/5] w-full object-cover" />
           </div>
         </div>
         <div className="md:col-span-3 glass-card rounded-3xl p-8 text-lg leading-relaxed text-muted-foreground">
-          I am <span className="text-foreground font-semibold">Baraka Chrisant Nathan</span>, also known as Nathy. I am passionate about technology, entrepreneurship, innovation, and creating practical digital solutions. My work spans web development, mobile applications, graphic design, AI integration, business automation, chatbots, and content creation. I enjoy turning ideas into real products that solve problems and create value.
+          I am <span className="text-foreground font-semibold">Baraka Nathy</span>. I am passionate about technology, entrepreneurship, innovation, and creating practical digital solutions. My work spans web development, mobile applications, graphic design, AI integration, business automation, chatbots, and content creation. I enjoy turning ideas into real products that solve problems and create value.
           <div className="mt-6 grid grid-cols-2 gap-4 text-base">
             <div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground">Based in</div>
@@ -482,7 +482,7 @@ function Footer() {
   return (
     <footer className="border-t border-border/50 py-10">
       <div className="mx-auto max-w-7xl px-4 text-center md:px-6">
-        <div className="text-lg font-semibold">Baraka Chrisant Nathan <span className="text-muted-foreground">(Nathy)</span></div>
+        <div className="text-lg font-semibold">Baraka Nathy</div>
         <div className="mt-1 text-sm text-muted-foreground">Developer · Entrepreneur · Tech Specialist · AI Specialist</div>
         <div className="mt-4 text-xs text-muted-foreground">© 2026 All Rights Reserved.</div>
       </div>

@@ -5,7 +5,8 @@ import {
   Github, Instagram, Facebook, Youtube, ArrowRight, ExternalLink,
   Sparkles, Menu, X, Send,
 } from "lucide-react";
-import heroPortrait from "@/assets/nathy-hero.jpg";
+import nathyAsset from "@/assets/nathy-portrait.png.asset.json";
+const heroPortrait = nathyAsset.url;
 import projJarvis from "@/assets/project-jarvis.jpg";
 import projGenz from "@/assets/project-genz.jpg";
 import projMechora from "@/assets/project-mechora.jpg";

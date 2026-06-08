@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WHATSAPP = "https://wa.me/255712089324";
+const WHATSAPP = "https://wa.me/255712089324?text=Hello%20Nathy,%20I%20visited%20your%20portfolio%20website%20and%20would%20like%20to%20connect.";
 
 const TITLES = ["Entrepreneur", "Developer", "Tech Specialist", "Graphic Designer", "Content Creator", "AI Specialist"];
 

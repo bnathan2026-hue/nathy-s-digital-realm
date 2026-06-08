@@ -277,18 +277,29 @@ function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string
 function About() {
   return (
     <Section id="about" eyebrow="Who I am" title="About Me">
-      <div className="grid gap-8 md:grid-cols-3">
-        <div className="md:col-span-2 glass-card rounded-3xl p-8 text-lg leading-relaxed text-muted-foreground">
-          I am <span className="text-foreground font-semibold">Baraka Chrisant Nathan</span>, also known as Nathy. I am passionate about technology, entrepreneurship, innovation, and creating practical digital solutions. My work spans web development, mobile applications, graphic design, AI integration, business automation, chatbots, and content creation. I enjoy turning ideas into real products that solve problems and create value.
+      <div className="grid gap-8 md:grid-cols-5">
+        <div className="md:col-span-2">
+          <div className="relative overflow-hidden rounded-3xl glass-card">
+            <div className="absolute -inset-8 -z-10 rounded-[2.5rem] bg-gradient-to-br from-primary/30 to-purple-500/20 blur-3xl" />
+            <img src={heroPortrait} alt="Baraka Chrisant Nathan" loading="lazy"
+                 className="aspect-[4/5] w-full object-cover" />
+          </div>
         </div>
-        <div className="glass-card rounded-3xl p-8">
-          <div className="text-sm text-muted-foreground">Based in</div>
-          <div className="mt-1 text-2xl font-bold">Tanzania 🇹🇿</div>
-          <div className="mt-6 text-sm text-muted-foreground">Roles</div>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {["Founder","Developer","Designer","Creator"].map((r) => (
-              <span key={r} className="rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs text-primary">{r}</span>
-            ))}
+        <div className="md:col-span-3 glass-card rounded-3xl p-8 text-lg leading-relaxed text-muted-foreground">
+          I am <span className="text-foreground font-semibold">Baraka Chrisant Nathan</span>, also known as Nathy. I am passionate about technology, entrepreneurship, innovation, and creating practical digital solutions. My work spans web development, mobile applications, graphic design, AI integration, business automation, chatbots, and content creation. I enjoy turning ideas into real products that solve problems and create value.
+          <div className="mt-6 grid grid-cols-2 gap-4 text-base">
+            <div>
+              <div className="text-xs uppercase tracking-widest text-muted-foreground">Based in</div>
+              <div className="mt-1 text-xl font-bold text-foreground">Tanzania 🇹🇿</div>
+            </div>
+            <div>
+              <div className="text-xs uppercase tracking-widest text-muted-foreground">Roles</div>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {["Founder","Developer","Designer","Creator"].map((r) => (
+                  <span key={r} className="rounded-full border border-primary/30 bg-primary/10 px-2.5 py-0.5 text-xs text-primary">{r}</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
